@@ -1,0 +1,25 @@
+{
+    "messages": [
+      {
+        "content": "Hello there!",
+        "sender": "bot"
+      },
+      {
+        "content": "Hi! How can I help you?",
+        "sender": "bot"
+      },
+      {
+        "content": "I'd like to know more about your services.",
+        "sender": "user"
+      },
+      {
+        "content": "Sure, we offer a range of services...",
+        "sender": "bot"
+      },
+      {
+        "content": "Thank you! That's very helpful.",
+        "sender": "user"
+      }
+    ]
+  }
+  
