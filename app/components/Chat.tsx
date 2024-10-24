@@ -24,7 +24,7 @@ export default function Chat() {
 
     const renderResponse= () => {
         return (
-            <div className='w-[720px] text-white'>
+            <div className='w-[720px]'>
                 {messages.map((m, index) => (
                     <div key={m.id} className={`${m.role === "user" ? 'bg-gray-900 rounded-lg' : ''} flex gap-10 p-5`}>
                         <Image src={m.role === "user" ? '/cat.jpg' : '/sage.png'} alt="avatar" width={150} height={150}  className={`rounded-full h-10 w-10`} />
